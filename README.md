@@ -14,4 +14,4 @@ export VCAP_APPLICATION="{\"limits\":{\"mem\":1024,\"disk\":1024,\"fds\":16384},
 `./gradlew build`
 
 # Deploy to CF
-`cf push logproducer -p build/libs/logproducer-1.0.jar -n logproducer --no-route`
+`cf push logproducer -p build/libs/logproducer-1.0.jar --no-route`
